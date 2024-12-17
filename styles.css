@@ -1,0 +1,120 @@
+:root {
+    --dark-green: #1E4D3B;
+    --light-green: #2D7E5E;
+    --accent-green: #3FA76E;
+}
+body {
+    font-family: 'Arial', sans-serif;
+}
+nav {
+    border-bottom: 2px solid var(--dark-green);
+}
+nav .logo {
+    color: var(--dark-green);
+}
+nav .nav-link {
+    color: var(--dark-green);
+    transition: color 0.3s;
+}
+nav .nav-link:hover {
+    color: var(--accent-green);
+}
+.hero-section {
+    background-color: var(--dark-green);
+    text-align: center;
+}
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.hero-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+.cta-button {
+    background-color: white;
+    color: var(--dark-green);
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.cta-button:hover {
+    background-color: #f0f0f0;
+}
+.section-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.service-card {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    border: 2px solid var(--dark-green);
+}
+.service-icon {
+    color: var(--dark-green);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.service-title {
+    color: var(--dark-green);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.about-section {
+    background-color: var(--dark-green);
+    color: white;
+    text-align: center;
+}
+.about-text {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+.about-subtext {
+    font-size: 1rem;
+}
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--dark-green);
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--dark-green);
+    border-radius: 0.25rem;
+}
+.submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: var(--dark-green);
+    color: white;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    transition: opacity 0.3s;
+}
+.submit-button:hover {
+    opacity: 0.9;
+}
+.footer {
+    background-color: var(--dark-green);
+    text-align: center;
+}
+.footer .social-links {
+    margin-bottom: 1rem;
+}
+.footer .social-icon {
+    color: white;
+    margin: 0 0.5rem;
+    transition: color 0.3s;
+}
+.footer .social-icon:hover {
+    color: var(--accent-green);
+}
